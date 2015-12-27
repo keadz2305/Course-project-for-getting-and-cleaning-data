@@ -1,7 +1,7 @@
 # Course-project-for-getting-and-cleaning-data
 
-setwd("~/Desktop/Learn_R/cleandata/data/UHD") sets working directory to the unzip dataset
-var <- read.table("./features.txt") imports all the complete list of variables as a data frame
+setwd("~/Desktop/Learn_R/cleandata/data/UHD") sets working directory to the unzip dataset/n
+var <- read.table("./features.txt") imports all the complete list of variables as a data frame/n
 var <- var[,2] select the column with the variable names as a vector
 xtest <- read.table("./test/X_test.txt") imports test observations
 ytest <- read.table("./test/y_test.txt") imports test activity ids
